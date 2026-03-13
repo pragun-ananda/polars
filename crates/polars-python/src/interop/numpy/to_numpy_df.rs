@@ -15,6 +15,7 @@ use super::utils::{
 };
 use crate::conversion::Wrap;
 use crate::dataframe::PyDataFrame;
+use crate::utils::EnterPolarsExt;
 
 #[pymethods]
 impl PyDataFrame {
